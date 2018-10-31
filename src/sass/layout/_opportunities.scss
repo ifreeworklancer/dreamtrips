@@ -1,0 +1,13 @@
+#opportunities {
+    padding: 70px 0 40px;
+    z-index: 3;  
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        @extend %pos;
+        right: 70%;
+        background: #f6f6f6;
+        z-index: -3;
+    }
+}
