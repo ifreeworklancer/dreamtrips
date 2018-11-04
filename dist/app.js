@@ -2144,22 +2144,32 @@ window.jQuery = window.$ = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
      *  Slider reviews
      */
 
-    // if ($('.reviews-slider')) {
+    if ($('.opportunities-slider')) {
 
-    //     var elem1 = document.querySelector('.reviews-slider');
-    //     if (elem1) {
+        var elem1 = document.querySelector('.opportunities-slider');
+        if (elem1) {
 
-    //         const flkty1 = new Flickity(elem1, {
-    //             prevNextButtons: false,
-    //             cellAlign: 'center',
-    //             contain: true,
-    //             draggable: true,
-    //             wrapAround: true,
-    //         });
+            var flkty1 = new __WEBPACK_IMPORTED_MODULE_1_flickity___default.a(elem1, {
+                prevNextButtons: false,
+                cellAlign: 'left',
+                contain: true,
+                draggable: true,
+                wrapAround: true
+            });
 
-    //     }
-    // }
+            var prevArrowOpportunities = document.querySelector('.slider-arrow-nav-item--prev');
 
+            prevArrowOpportunities.addEventListener('click', function () {
+                flkty1.previous(false, false);
+            });
+
+            var nextArrowOpportunities = document.querySelector('.slider-arrow-nav-item--next');
+
+            nextArrowOpportunities.addEventListener('click', function () {
+                flkty1.next(false, false);
+            });
+        }
+    }
 })(jQuery);
 
 /***/ }),
