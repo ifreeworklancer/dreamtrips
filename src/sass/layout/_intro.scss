@@ -2,6 +2,8 @@
     height: 100vh;
     max-height: 1080px;
     background: url('../images/bg/intro-bg.jpg') 50% 50% / cover no-repeat;
+    z-index: 5;
+    overflow: hidden;
 
     @media (max-width: map_get($grid-breakpoints, sm)) {
         height: auto;

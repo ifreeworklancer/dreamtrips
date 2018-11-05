@@ -1,49 +1,86 @@
-.format-modal {
+.modal {
+    display: block;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    padding: 0 0 30px;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, 1000px);
     width: 100%;
-    max-width: 320px;
-    z-index: 99;
-    border-radius: 5px;
-    background: #232f42;
-    background: rgba(#000, .85);
-    transition: .7s;
-    transition-delay: .1s;
+    max-width: 450px;
+    border-radius: 10px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0px 10px 14px 2px rgba(0, 0, 0, 0.16);
+    transition: .5s;
+    z-index: 9999;
 
     &.active {
-        transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%);
     }
 
-    &::before {
-        content: '';
-        @extend %pos;
-        background: url('../images/icon/decor/pattern.png');
-        z-index: -3;
+    &-participate {
+
+        .modal-header {
+            height: 100px;
+            background: url('../images/content/modal/modal-participate-header.jpg') 50% 50% / cover no-repeat;
+        }
+    }
+
+    &-packages {
+
+        .modal-header {
+            height: 45px;
+        }
+
+        &--gold {
+
+            .modal-header {
+                background: #fbc95d;
+            }
+        }
+
+        &--platinum {
+            
+            .modal-header {
+                background: #cccccc;
+            }
+        }
     }
 
     &-header {
-
-        &__title {
-            padding: 30px 0;
-            border-radius: 5px 5px 0 0;
-            background: #fff;
-            color: $dark;
-            text-align: center;
-            font-weight: 500;
-            margin-bottom: 50px;
-        }
+        border-radius: 10px 10px 0 0;
+        border-bottom: none;
     }
 
     &-body {
 
-        &__form {
+        .warranty {
+            position: relative;
+            padding: 15px 0;
+            font-size: 14px;
+            color: #6d6d6d;
+            z-index: 2;
+
+            &::before {
+                content: '';
+                @extend %pos;
+                left: -16px;
+                right: -16px;
+                background: #ebebeb;
+                border: 1px solid #d7d7d7;
+                z-index: -2;
+            }
+        }
+
+        .btn {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            padding: 15px;
+            width: 100%;
+        }
+
+        &__title {
+            text-transform: uppercase;
         }
     }
 }
@@ -52,12 +89,14 @@
     @extend %pos;
     position: fixed;
     background: rgba(#000, .85);
-    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
     transition: .5s;
-    z-index: 98;
+    z-index: 9998;
 
     &.active {
-        transform: scale(1);
+        opacity: 1;
+        visibility: visible;
     }
 }
 
@@ -77,7 +116,7 @@
         left: 50%;
         width: 20px;
         height: 2px;
-        background: $dark;
+        background: #fff;
         opacity: .7;
         transition: .5s;
 

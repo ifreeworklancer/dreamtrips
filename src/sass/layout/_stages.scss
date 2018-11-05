@@ -1,7 +1,7 @@
 #stages {
     margin-top: -20px;
-    padding: 140px 0 80px;
     overflow: hidden;
+    padding: 140px 0 80px;
 
     @media (max-width: map_get($grid-breakpoints, sm)) {
         padding: 50px 0;
@@ -22,7 +22,7 @@
             counter-increment: list;
 
             &::before {
-                content:  '0'counter(list);
+                content: '0'counter(list);
                 position: absolute;
                 top: 25px;
                 left: 0;

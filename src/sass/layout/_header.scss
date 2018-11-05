@@ -3,6 +3,10 @@
     bottom: auto;
     background: rgba(#fff, .3);
     z-index: 9999;
+
+    &.is-fixed {
+        position: fixed;
+    }
 }
 
 .logo {
