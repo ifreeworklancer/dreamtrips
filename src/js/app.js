@@ -115,10 +115,10 @@ window.jQuery = window.$ = jquery;
      * Plane Decor
      */
     var plane = $('.decor-plane');
+    $(plane).addClass('light');
 
     $(window).on('scroll', function () {
         plane.css('position', 'absolute')
-
         if ($(this).scrollTop() > ($('.intro-item__title').offset().top)) {
             $(plane).css('top', `${$('.section-title--advantages').offset().top}px`).removeClass('light');
         }
