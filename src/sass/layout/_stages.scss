@@ -19,6 +19,7 @@
             position: relative;
             margin-bottom: 50px;
             padding-left: 90px;
+            min-height: 70px;
             counter-increment: list;
 
             &::before {
