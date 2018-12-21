@@ -28,4 +28,4 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['phone'])
 	mail($to, $subject, $message, $headers);
 }
 
-header('Location: /thank-you.php');
+header('Location: /thanks.php');
