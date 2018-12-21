@@ -133,9 +133,11 @@ window.jQuery = window.$ = jquery;
             $(plane).css('top', `${$('.intro-item__title').offset().top -40}px`).addClass('light');
         }
 
+        /*
         if ($(this).scrollTop() > ($('.section-title--opportunities').offset().top)) {
             $(plane).css('top', `${$('.section-title--progress').offset().top}px`).removeClass('light');
         }
+        */
 
         if ($(this).scrollTop() > ($('.section-title--progress').offset().top)) {
             $(plane).css('top', `${$('.section-title--explanation').offset().top}px`).addClass('light');
