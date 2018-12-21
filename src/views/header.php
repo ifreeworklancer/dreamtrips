@@ -91,7 +91,7 @@
 			<ul class="menu-nav-list list-unstyled">
 				<li class="menu-nav-list-item">
 					<a href="#advantages" class="scroll-link">
-						Наши преймущества
+						Наши преимущества
 					</a>
 				</li>
 				<li class="menu-nav-list-item">
