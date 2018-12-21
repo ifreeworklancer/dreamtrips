@@ -123,9 +123,11 @@ window.jQuery = window.$ = jquery;
             $(plane).css('top', `${$('.section-title--advantages').offset().top}px`).removeClass('light');
         }
 
+        /*
         if ($(this).scrollTop() > ($('.section-title--advantages').offset().top)) {
             $(plane).css('top', `${$('.section-title--opportunities').offset().top}px`).removeClass('light');
         }
+         */
 
         if ($(this).scrollTop() == 0) {
             $(plane).css('top', `${$('.intro-item__title').offset().top -40}px`).addClass('light');
