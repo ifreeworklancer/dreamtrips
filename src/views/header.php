@@ -50,7 +50,7 @@
 		<div class="row justify-content-between">
 			<div class="col-sm-5 col-lg-3">
 				<a href="#" class="logo">
-					<div class="logo__img" style="background-image: url('images/icon/logo/logo.png');"></div>
+					<div class="logo__img" style="background-image: url('/images/icon/logo/logo.png');"></div>
 				</a>
 			</div>
 			<div class="col-sm-6 col-lg-4 d-flex justify-content-between align-items-center py-2 px-sm-0 mt-3 mt-sm-0">
