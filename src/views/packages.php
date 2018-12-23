@@ -46,14 +46,14 @@
 					</div>
 					<div class="card-footer">
 						<div class="card-footer__price">
-                            <p>
+                            <div class="mb-2">
                                 <small>первоначальный членский взнос</small>
                                 <div><strong>$279.98</strong> USD</div>
-                            </p>
-							<p>
+                            </div>
+							<div>
                                 <small>в месяц</small>
                                 <div><strong>$56.99</strong> USD</div>
-                            </p>
+                            </div>
 						</div>
 						<a href="#" class="btn btn-primary open-packages-gold">
                             приобрести пакет
