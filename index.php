@@ -44,15 +44,15 @@
                     </h2>
                     <ul class="contacts-list list-unstyled">
                         <li class="contacts-list-item contacts-list-item--phone">
-                            <a href="tel:+380991227700">
-                                +380 99 122 77 00
+                            <a href="tel:+972535230643">
+                                +972 53-523-0643
                             </a>
                         </li>
                         <li class="contacts-list-item contacts-list-item--place">
-                            ул. Хрещатик 120 г. Киев Украина
+                            Израиль. Тель-Авив, Игаль Алон 123/6
                         </li>
                         <li class="contacts-list-item contacts-list-item--email">
-                            <a href="#">dreamstrips@gmail.com</a>
+                            <a href="mailto:info@dreamtripsukraine.com">info@dreamtripsukraine.com</a>
                         </li>
                     </ul>
                 </div>
@@ -61,33 +61,28 @@
                 <nav class="footer-nav">
                     <ul class="footer-nav-list list-unstyled d-flex flex-column flex-lg-row justify-content-between align-items-center">
                         <li class="footer-nav-list-item">
-                            <a href="#">
-                                Lorem Ipsum?
+                            <a href="#advantages">
+                                Наши преимущества
                             </a>
                         </li>
                         <li class="footer-nav-list-item">
-                            <a href="#">
+                            <a href="#opportunities">
                                 Наши возможности
                             </a>
                         </li>
                         <li class="footer-nav-list-item">
-                            <a href="#">
+                            <a href="#progress">
                                 Достижения
                             </a>
                         </li>
                         <li class="footer-nav-list-item">
-                            <a href="#">
+                            <a href="#explanation">
                                 Как это работает
                             </a>
                         </li>
                         <li class="footer-nav-list-item">
-                            <a href="#">
+                            <a href="#packages">
                                 Пакеты участия
-                            </a>
-                        </li>
-                        <li class="footer-nav-list-item">
-                            <a href="#">
-                                Контакты
                             </a>
                         </li>
                     </ul>
@@ -125,8 +120,9 @@
                         &copy;<?= date('Y') ?> Все права защищены
                     </div>
                     <div class="footer-copyr__item">
-                        Дизайн и разрботка <a href="https://impressionbureau.pro"
-                                              target="_blank">Impression.Bureau</a><sup>2018</sup>
+                        Дизайн и разрботка
+                        <a href="https://impressionbureau.pro"
+                           target="_blank">Impression.Bureau</a><sup>2018</sup>
                     </div>
                 </div>
             </div>

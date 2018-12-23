@@ -7,8 +7,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Dreamtrips</title>
 
-	<link rel="stylesheet" href="fonts/fonts.css">
-	<link rel="stylesheet" href="dist/app.css">
+	<link rel="stylesheet" href="/fonts/fonts.css">
+	<link rel="stylesheet" href="/dist/app.css">
 </head>
 
 <body>
@@ -44,7 +44,6 @@
 	</symbol>
 </svg>
 
-
 <header id="app-header">
 	<div class="container">
 		<div class="row justify-content-between">
@@ -56,21 +55,22 @@
 			<div class="col-sm-6 col-lg-4 d-flex justify-content-between align-items-center py-2 px-sm-0 mt-3 mt-sm-0">
 				<ul class="social-list list-unstyled d-flex">
 					<li class="social-list-item social-list-item--facebook mr-2 mr-sm-3">
-						<a href="#">
+						<a href="https://www.facebook.com/dreamtripsua/" target="_blank">
 							<svg width="15" height="15">
 								<use xlink:href="#facebook-icon"></use>
 							</svg>
 						</a>
 					</li>
 					<li class="social-list-item social-list-item--instagram mr-2 mr-sm-3">
-						<a href="#">
+						<a href="#https://www.instagram.com/dreamtrips_ukraine_official/" target="_blank">
 							<svg width="15" height="15">
 								<use xlink:href="#instagram-icon"></use>
 							</svg>
 						</a>
 					</li>
 					<li class="social-list-item social-list-item--youtube">
-						<a href="#">
+						<a href="https://www.youtube.com/channel/UC0tgV8JCzYNxGnjT67KPFEQ?view_as=subscriber"
+                           target="_blank">
 							<svg width="15" height="15">
 								<use xlink:href="#youtube-icon"></use>
 							</svg>
