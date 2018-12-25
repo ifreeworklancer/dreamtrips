@@ -29,39 +29,12 @@
 
 						<div class="prev">
 							<h3 class="prev__title">
-								Осло, Норвегия
+								Бангкок
 							</h3>
 							<div class="prev__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
+								Цена <span class="font-weight-bold text-white">от $359</span>
 							</div>
 						</div>
-
-						<div class="description">
-							<h3 class="description__title">
-								Осло, Норвегия
-							</h3>
-							<div class="description__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
-							</div>
-							<div class="description__data">
-								<svg width="10" height="10">
-									<use xlink:href="#calendar-icon"></use>
-								</svg>
-								30 октября - 5 ноября 2018
-							</div>
-							<p>
-								Несмотря на расположение в северных широтах, в Норвегии умеренный климат, в
-								основном, благодаря Гольфстриму. Северные, западные и восточные районы от
-								атлантических ветров защищают Скандинавские горы, поэтому зимы здесь
-								относительно
-								Норвегии более холодные,
-								а лето непродолжительное.
-							</p>
-							<a href="#" class="btn btn-light open-participate">ХОЧУ УЧАСТВОВАТЬ</a>
-						</div>
-
-						<div class="hover-bg"></div>
-
 					</div>
 
 					<div class="opportunities-slider-item"
@@ -69,36 +42,12 @@
 
 						<div class="prev">
 							<h3 class="prev__title">
-								Париж, Франция
+								Пхукет
 							</h3>
 							<div class="prev__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
+								Цена <span class="font-weight-bold text-white">от $559</span>
 							</div>
 						</div>
-
-						<div class="description">
-							<h3 class="description__title">
-								Париж, Франция
-							</h3>
-							<div class="description__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
-							</div>
-							<div class="description__data">
-								<svg width="10" height="10">
-									<use xlink:href="#calendar-icon"></use>
-								</svg>
-								30 октября - 5 ноября 2018
-							</div>
-							<p>
-								Несмотря на расположение в северных широтах, в Норвегии умеренный климат, в
-								основном, благодаря Гольфстриму. Северные, западные и восточные районы от
-								атлантических ветров защищают Скандинавские горы, поэтому зимы здесь
-								относительно.
-							</p>
-							<a href="#" class="btn btn-light open-participate">ХОЧУ УЧАСТВОВАТЬ</a>
-						</div>
-
-						<div class="hover-bg"></div>
 
 					</div>
 
@@ -107,38 +56,12 @@
 
 						<div class="prev">
 							<h3 class="prev__title">
-								Тунис
+								Дубаи
 							</h3>
 							<div class="prev__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
+								Цена <span class="font-weight-bold text-white">от $899</span>
 							</div>
 						</div>
-
-						<div class="description">
-							<h3 class="description__title">
-								Тунис
-							</h3>
-							<div class="description__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
-							</div>
-							<div class="description__data">
-								<svg width="10" height="10">
-									<use xlink:href="#calendar-icon"></use>
-								</svg>
-								30 октября - 5 ноября 2018
-							</div>
-							<p>
-								Несмотря на расположение в северных широтах, в Норвегии умеренный климат, в
-								основном, благодаря Гольфстриму. Северные, западные и восточные районы от
-								атлантических ветров защищают Скандинавские горы, поэтому зимы здесь
-								относительно
-								Норвегии более холодные,
-								а лето непродолжительное.
-							</p>
-							<a href="#" class="btn btn-light open-participate">ХОЧУ УЧАСТВОВАТЬ</a>
-						</div>
-
-						<div class="hover-bg"></div>
 
 					</div>
 
@@ -147,38 +70,12 @@
 
 						<div class="prev">
 							<h3 class="prev__title">
-								Греция
+								Рим
 							</h3>
 							<div class="prev__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
+								Цена <span class="font-weight-bold text-white">от $1659</span>
 							</div>
 						</div>
-
-						<div class="description">
-							<h3 class="description__title">
-								Греция
-							</h3>
-							<div class="description__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
-							</div>
-							<div class="description__data">
-								<svg width="10" height="10">
-									<use xlink:href="#calendar-icon"></use>
-								</svg>
-								30 октября - 5 ноября 2018
-							</div>
-							<p>
-								Несмотря на расположение в северных широтах, в Норвегии умеренный климат, в
-								основном, благодаря Гольфстриму. Северные, западные и восточные районы от
-								атлантических ветров защищают Скандинавские горы, поэтому зимы здесь
-								относительно
-								Норвегии более холодные,
-								а лето непродолжительное.
-							</p>
-							<a href="#" class="btn btn-light open-participate">ХОЧУ УЧАСТВОВАТЬ</a>
-						</div>
-
-						<div class="hover-bg"></div>
 
 					</div>
 
@@ -187,116 +84,40 @@
 
 						<div class="prev">
 							<h3 class="prev__title">
-								Черногория
+								Гаваи
 							</h3>
 							<div class="prev__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
+								Цена <span class="font-weight-bold text-white">от $1189</span>
 							</div>
 						</div>
-
-						<div class="description">
-							<h3 class="description__title">
-								Черногория
-							</h3>
-							<div class="description__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
-							</div>
-							<div class="description__data">
-								<svg width="10" height="10">
-									<use xlink:href="#calendar-icon"></use>
-								</svg>
-								30 октября - 5 ноября 2018
-							</div>
-							<p>
-								Несмотря на расположение в северных широтах, в Норвегии умеренный климат, в
-								основном, благодаря Гольфстриму. Северные, западные и восточные районы от
-								атлантических ветров защищают Скандинавские горы, поэтому зимы здесь
-								относительно
-								Норвегии более холодные,
-								а лето непродолжительное.
-							</p>
-							<a href="#" class="btn btn-light open-participate">ХОЧУ УЧАСТВОВАТЬ</a>
-						</div>
-
-						<div class="hover-bg"></div>
 
 					</div>
 
 					<div class="opportunities-slider-item"
-						 style="background-image: url('images/content/opportunities/opportunities-item-3.jpg');">
+						 style="background-image: url('images/content/opportunities/opportunities-item-6.jpg');">
 
 						<div class="prev">
 							<h3 class="prev__title">
-								Тунис
+								Египет
 							</h3>
 							<div class="prev__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
+								Цена <span class="font-weight-bold text-white">от $329</span>
 							</div>
 						</div>
-
-						<div class="description">
-							<h3 class="description__title">
-								Тунис
-							</h3>
-							<div class="description__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
-							</div>
-							<div class="description__data">
-								<svg width="10" height="10">
-									<use xlink:href="#calendar-icon"></use>
-								</svg>
-								30 октября - 5 ноября 2018
-							</div>
-							<p>
-								Несмотря на расположение в северных широтах, в Норвегии умеренный климат, в
-								основном, благодаря Гольфстриму. Северные, западные и восточные районы от
-								атлантических ветров защищают Скандинавские горы, поэтому зимы здесь
-								относительно
-								Норвегии более холодные,
-								а лето непродолжительное.
-							</p>
-							<a href="#" class="btn btn-light open-participate">ХОЧУ УЧАСТВОВАТЬ</a>
-						</div>
-
-						<div class="hover-bg"></div>
 
 					</div>
 
 					<div class="opportunities-slider-item"
-						 style="background-image: url('images/content/opportunities/opportunities-item-2.jpg');">
+						 style="background-image: url('images/content/opportunities/opportunities-item-7.jpg');">
 
 						<div class="prev">
 							<h3 class="prev__title">
-								Париж, Франция
+								Греция
 							</h3>
 							<div class="prev__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
+								Цена <span class="font-weight-bold text-white">от $1029</span>
 							</div>
 						</div>
-
-						<div class="description">
-							<h3 class="description__title">
-								Париж, Франция
-							</h3>
-							<div class="description__price">
-								Цена <span class="font-weight-bold text-white">от $629</span>
-							</div>
-							<div class="description__data">
-								<svg width="10" height="10">
-									<use xlink:href="#calendar-icon"></use>
-								</svg>
-								30 октября - 5 ноября 2018
-							</div>
-							<p>
-								Несмотря на расположение в северных широтах, в Норвегии умеренный климат, в
-								основном, благодаря Гольфстриму. Северные, западные и восточные районы от
-								атлантических ветров защищают Скандинавские горы, поэтому зимы здесь
-								относительно.
-							</p>
-							<a href="#" class="btn btn-light open-participate">ХОЧУ УЧАСТВОВАТЬ</a>
-						</div>
-
-						<div class="hover-bg"></div>
 
 					</div>
 

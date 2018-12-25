@@ -12,7 +12,7 @@
 				<div class="progress-item">
 					<div id="progress-counter1" class="progress-item__counter">0</div>
 					<p>
-						Наш клуб объединяет представителей из 25 стран мира
+						Людей пользуется сервисом
 					</p>
 				</div>
 			</div>
@@ -20,7 +20,7 @@
 				<div class="progress-item">
 					<div id="progress-counter2" class="progress-item__counter">0</div>
 					<p>
-						процентов клиентов попробовав клубный отдых DREAMTRIPS остаются с нами навсегда.
+						лет сервис Dreamtrips на рынке
 					</p>
 				</div>
 			</div>
@@ -28,7 +28,7 @@
 				<div class="progress-item">
 					<div id="progress-counter3" class="progress-item__counter">0</div>
 					<p>
-						Детально подобранных dreamtrips путешествий
+						стран - география сервиса
 					</p>
 				</div>
 			</div>
@@ -36,13 +36,13 @@
 				<div class="progress-item">
 					<div id="progress-counter4" class="progress-item__counter">0</div>
 					<p>
-						Участников проекта объединеных любовью к путешествиям и новым ощущениям
+						международных туристических наград
 					</p>
 				</div>
 			</div>
 		</div>
 		<div class="decor-line decor-line--progress">
-			<span class="decor-line__text">Наши возможности</span>
+			<span class="decor-line__text">Dreamtrips в цифрах</span>
 		</div>
 	</div>
 	<div class="decor-text">

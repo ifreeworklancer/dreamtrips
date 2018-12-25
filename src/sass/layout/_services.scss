@@ -1,0 +1,29 @@
+#services {
+  padding: 80px 0;
+}
+
+.services-item {
+  position: relative;
+  width: 100%;
+  max-width: 260px;
+  margin: 0 auto 30px;
+  padding: 40px 30px;
+  background: #fff;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+
+  .icon {
+    margin-bottom: 15px;
+    width: 55px;
+    height: 40px;
+    @extend %img;
+    background-size: contain;
+  }
+
+  &::before {
+    content: '';
+    @extend %pos;
+    top: auto;
+    height: 3px;
+    background: $primary;
+  }
+}

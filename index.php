@@ -4,7 +4,8 @@
 	<?php
 	$sections = [
 		'intro',
-		'advantages',
+        'advantages',
+        'services',
 		'opportunities',
 		'progress',
 		'explanations',

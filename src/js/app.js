@@ -188,19 +188,19 @@ window.jQuery = window.$ = jquery;
     $(window).on('scroll', function () {
         if ($(this).scrollTop() + $(window).height() > $('#progress').offset().top && !isCounted) {
             $('#progress-counter1').jQuerySimpleCounter({
-                end: 25,
+                end: 1500000,
                 duration: 3000
             });
             $('#progress-counter2').jQuerySimpleCounter({
-                end: 90,
+                end: 12,
                 duration: 3000
             });
             $('#progress-counter3').jQuerySimpleCounter({
-                end: 1200,
+                end: 35,
                 duration: 3000
             });
             $('#progress-counter4').jQuerySimpleCounter({
-                end: 248072,
+                end: 25,
                 duration: 3000
             });
 
