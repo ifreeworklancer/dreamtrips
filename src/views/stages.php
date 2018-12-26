@@ -29,7 +29,7 @@
 			</div>
 			<div class="col-sm-5 col-lg-6 ml-auto mr-0 order-1 order-sm-2">
 				<div class="stages-img"
-					 style="background-image: url('images/content/ijoSOIJmjF189.jpg');"></div>
+					 style="background-image: url('/images/content/ijoSOIJmjF189.jpg');"></div>
 			</div>
 		</div>
 		<div class="decor-line decor-line--stages">
