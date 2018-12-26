@@ -15,7 +15,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['phone'])
         <p>Email: {$_POST['email']}</p>
         <p>Телефон: {$_POST['phone']}</p>";
 	if (!empty($_POST['package'])) {
-		$message .= "<br><p>Пакет: {$_POST['package']}</p>";
+		$message .= "<br><p><b>{$_POST['package']}</b></p>";
 	}
 	$message .= "------<br>Основной сайт";
 	$message .= "</body>
@@ -26,6 +26,31 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['phone'])
 			   'X-Mailer: PHP/' . phpversion();
 	$headers = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+
+	try {
+		$params = [
+			'fullname' => $_POST['name'],
+			'phone' => $_POST['phone'],
+			'email' => $_POST['email'],
+			'u' => 1,
+			'f' => 1,
+			's' => '',
+			'c' => 0,
+			'm' => 0,
+			'act' => 'sub',
+			'v' => 2,
+		];
+		$curl = curl_init();
+		curl_setopt($curl, CURLOPT_URL,
+			"https://dreamtripsukrtd26.activehosted.com/proc.php?"
+			. http_build_query($params)
+			. "&jsonp=true");
+		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+		curl_exec($curl);
+		curl_close($curl);
+	} catch (Exception $exception) {
+	}
+
 	mail($to, $subject, $message, $headers);
 }
 
