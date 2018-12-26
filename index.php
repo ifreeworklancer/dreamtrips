@@ -32,7 +32,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-5 col-lg-3">
-                <a href="#" class="logo">
+                <a href="/" class="logo">
                     <div class="logo__img" style="background-image: url('images/icon/logo/logo.png');"></div>
                 </a>
             </div>

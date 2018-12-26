@@ -59,7 +59,8 @@
 		<h3 class="modal-body__title mb-4">
 			Вы выбрали паКЕТ “Gold”
 		</h3>
-		<form id="form-packages--gold">
+		<form id="form-packages--gold" action="/send.php" method="post">
+            <input type="hidden" name="package" value="Пакет «Gold»">
 			<div class="form-row d-flex flex-column align-items-center">
 				<div class="form-group mb-4">
 					<label for="user-name--packages--gold" class="label-placeholder">
@@ -103,7 +104,8 @@
 		<h3 class="modal-body__title mb-4">
 			Вы выбрали паКЕТ “Platinum”
 		</h3>
-		<form id="form-packages--platinum">
+		<form id="form-packages--platinum" action="/send.php" method="post">
+            <input type="hidden" name="package" value="Пакет «Platinum»">
 			<div class="form-row d-flex flex-column align-items-center">
 				<div class="form-group mb-4">
 					<label for="user-name--packages--platinum" class="label-placeholder">

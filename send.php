@@ -15,7 +15,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['phone'])
         <p>Email: {$_POST['email']}</p>
         <p>Телефон: {$_POST['phone']}</p>";
 	if (!empty($_POST['package'])) {
-		$message .= "<br><p>Пакет: {$_POST['package']}</p>";
+		$message .= "<br><p><b>{$_POST['package']}</b></p>";
 	}
 	$message .= "------<br>Основной сайт";
 	$message .= "</body>
