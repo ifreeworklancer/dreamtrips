@@ -38,7 +38,7 @@
       fbq('track', 'CompleteRegistration');
       <?php endif; ?>
     </script>
-
+    <script src="//widget.manychat.com/187705778784962.js" async="async"></script>
 </head>
 
 <body>
