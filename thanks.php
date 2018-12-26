@@ -11,10 +11,6 @@
                 <div class="mcwidget-embed" data-widget-id="4231426"></div>
             </div>
 
-            <div class="p-3 mx-auto d-inline-block bg-light rounded">
-                <div class="mcwidget-embed" data-widget-id="4231426"></div>
-            </div>
-
 			<p class="mt-5">
 				<a href="/" class="btn btn-light">На главную</a>
 			</p>
