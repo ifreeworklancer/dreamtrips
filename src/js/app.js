@@ -181,7 +181,9 @@ window.jQuery = window.$ = jquery;
                 var mathCount = Math.ceil(this.count);
                 thisElement.text(mathCount);
             },
-            complete: settings.complete
+            complete: function() {
+                thisElement.text(settings.end)
+            }
         });
     };
 
@@ -192,7 +194,7 @@ window.jQuery = window.$ = jquery;
                 duration: 3000
             });
             $('#progress-counter2').jQuerySimpleCounter({
-                end: 12,
+                end: 13,
                 duration: 3000
             });
             $('#progress-counter3').jQuerySimpleCounter({
